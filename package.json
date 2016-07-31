@@ -1,6 +1,6 @@
 {
   "name": "lodash-doc-globals",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Globals referenced by Lodash documentation examples.",
   "keywords": "documentation, globals, lodash",
   "repository": "lodash/lodash-doc-globals",
