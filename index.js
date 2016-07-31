@@ -7,7 +7,7 @@ function EventSource() {}
 
 EventSource.prototype.addEventListener = noop;
 
-function mockQuery() {
+function jQuery() {
   return {
     'on': function(eventName, callback) {
       callback();
@@ -15,7 +15,7 @@ function mockQuery() {
   };
 }
 
-mockQuery.each = each;
+jQuery.each = each;
 
 module.exports = {
   // Example mocks.
@@ -34,7 +34,7 @@ module.exports = {
   'document': { 'body': { 'childNodes': [], 'nodeName': 'BODY' } },
   'element': {},
   'EventSource': EventSource,
-  'jQuery': mockQuery,
+  'jQuery': jQuery,
   'window': {},
 
   // Node.js mocks.
