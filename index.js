@@ -45,6 +45,7 @@ module.exports = {
   'setImmediate': setImmediate,
 
   // Lodash v3.10.1 mocks.
+  'cwd': '',
   'mage': { 'castSpell': noop },
   'models': { 'todo': {} },
   'throttled': { 'cancel': noop }
