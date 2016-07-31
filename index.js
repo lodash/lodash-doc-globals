@@ -3,6 +3,10 @@
 var each = require('lodash/each'),
     noop = require('lodash/noop');
 
+function EventSource() {}
+
+EventSource.prototype.addEventListener = noop;
+
 function mockQuery() {
   return {
     'on': function(eventName, callback) {
@@ -29,7 +33,7 @@ module.exports = {
   // DOM mocks.
   'document': { 'body': { 'childNodes': [], 'nodeName': 'BODY' } },
   'element': {},
-  'EventSource': noop,
+  'EventSource': EventSource,
   'jQuery': mockQuery,
   'window': {},
 
