@@ -13,7 +13,7 @@
     "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
   ],
   "dependencies": {
-    "lodash": "^4.14.1"
+    "lodash": "^4.15.0"
   },
   "files": [
     "index.js"
