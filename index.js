@@ -19,8 +19,8 @@ jQuery.each = each;
 
 module.exports = {
   // Example mocks.
-  'asyncSave': noop,
   'addContactToList': noop,
+  'asyncSave': noop,
   'batchLog': noop,
   'calculateLayout': noop,
   'createApplication': noop,
