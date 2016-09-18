@@ -1,6 +1,6 @@
 'use strict';
 
-var each = require('lodash/each'),
+var each = require('lodash/forEach'),
     noop = require('lodash/noop');
 
 function EventSource() {}
